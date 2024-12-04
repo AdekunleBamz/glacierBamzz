@@ -34,14 +34,13 @@ ICON_EXIT="🚪"
 # ASCII Art Header
 # ----------------------------
 display_ascii() {
-    clear
-    echo -e "    ${RED}    ____  __ __    _   ______  ____  ___________${NC}"
-    echo -e "    ${GREEN}   / __ \\/ //_/   / | / / __ \\/ __ \\/ ____/ ___/${NC}"
-    echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${NC}"
-    echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${NC}"
-    echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${NC}"
-    echo -e "    ${MAGENTA}${ICON_TELEGRAM} Follow us on Telegram: https://t.me/dknodes${NC}"
-    echo -e "    ${MAGENTA}📢 Follow us on Twitter: https://x.com/dknodes${NC}"
+    echo -e "    ${RED}___          __  __ ____________${RESET}"
+    echo -e "    ${GREEN}|  _ \   /\   |  \/  |___  |___  /${RESET}"
+    echo -e "    ${BLUE}| |_) | /  \  | \  / |  / /   / / ${RESET}"
+    echo -e "    ${CYAN}|  _ < / /\ \ | |\/| | / /   / /  ${RESET}"
+    echo -e "    ${MAGENTA}| |_) / ____ \| |  | |/ /__ / /__ ${RESET}"
+    echo -e "    ${YELLOW}|____/_/    \_|_|  |_/_____/_____|${RESET}"
+    echo -e "    ${YELLOW}📢 Follow us on Twitter: https://x.com/HRH_Mckay${RESET}"
 }
 
 # ----------------------------
